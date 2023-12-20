@@ -3,8 +3,8 @@ import Button from "./button";
 
 const Footer = () => {
   return (
-    <footer className="text-sm bg-gray-50 p-8 sticky bottom-0 mt-4">
-      <div className="lg:max-w-6xl justify-between max-w-[544px] mx-auto py-8 md:py-2 flex gap-4 items-center">
+    <footer className="text-sm bg-gray-50 sticky bottom-0 mt-4">
+      <div className="lg:max-w-6xl justify-between max-w-[544px] mx-auto py-6 md:py-8 px-8 md:px-2 flex gap-4 items-center">
         <div className="flex flex-col lg:flex-row gap-4 items-center">
           <div className="flex gap-2 align-top max-w-6xl mx-auto">
             <svg

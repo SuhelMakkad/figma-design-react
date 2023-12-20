@@ -11,7 +11,7 @@ import Footer from "@/common/components/footer";
 export default function Home() {
   return (
     <>
-      <div className="lg:max-w-6xl max-w-[544px] mx-auto mt-8 py-8 md:py-2">
+      <div className="lg:max-w-6xl max-w-[544px] mx-auto lg:mt-8 md:mt-4 mt-2 px-8 md:px-2">
         <Head>
           <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         </Head>
