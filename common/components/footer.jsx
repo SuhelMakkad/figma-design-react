@@ -4,8 +4,8 @@ import Button from "./button";
 const Footer = () => {
   return (
     <footer className="text-sm bg-gray-50 sticky bottom-0 mt-4">
-      <div className="lg:max-w-6xl justify-between max-w-[544px] mx-auto py-6 md:py-8 px-8 md:px-2 flex gap-4 items-center">
-        <div className="flex flex-col lg:flex-row gap-4 items-center">
+      <div className="lg:max-w-6xl sm:justify-between max-w-[544px] mx-auto py-6 md:py-8 px-8 md:px-2 flex gap-4 items-center justify-end">
+        <div className="hidden sm:flex flex-col lg:flex-row gap-4 items-center">
           <div className="flex gap-2 align-top max-w-6xl mx-auto">
             <svg
               width="20"
@@ -58,7 +58,7 @@ const Footer = () => {
         <div className="flex items-center gap-4 align-top lg:mx-auto">
           <div className="flex flex-col text-end">
             <span className="font-bold text-gray-900 text-3xl">$2,717</span>
-            <span className="text-gray-500">
+            <span className="hidden md:block text-gray-500">
               Need financing?{" "}
               <a href="#" className="underline">
                 Learn more
