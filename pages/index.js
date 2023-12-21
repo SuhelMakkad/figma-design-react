@@ -11,7 +11,7 @@ import Footer from "@/common/components/footer";
 export default function Home() {
   return (
     <>
-      <div className="lg:max-w-6xl max-w-[544px] mx-auto lg:mt-8 md:mt-4 mt-2 px-8 md:px-2">
+      <div className="lg:max-w-6xl max-w-[544px] mx-auto lg:mt-8 md:mt-4 mt-2 px-8 md:px-2 font-[inter]">
         <Head>
           <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         </Head>
@@ -25,7 +25,7 @@ export default function Home() {
 
         <Separator className="mt-4 mb-8" />
 
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
+        <div className="grid lg:grid-cols-2 grid-cols-1 items-start gap-6">
           <section className="col-span-1 lg:sticky top-2">
             <ImageCarousel />
           </section>
